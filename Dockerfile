@@ -19,7 +19,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port the application will run on:
-EXPOSE 3028
+EXPOSE 8080
 
 # Define the command to run the application. This is the same command that Node.js runs on when creating the application locally
-CMD = ["node", "build/index.js"]
+CMD [ "node", "build/index.js" ]
