@@ -10,6 +10,7 @@
       /* Type Checking */
       "strict": true,                                      /* Enable all strict type-checking options. */
     },
-    "include": ["src/**/*", "src"]
+    "include": ["src/**/*", "src"],
+    "exclude": ["node_modules"]
 }
   
